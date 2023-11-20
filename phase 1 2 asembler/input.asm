@@ -1,0 +1,5 @@
+START: MOV R1, #10
+LOOP: ADD R2, R1, R2
+    SUB R1, #1
+    BNE LOOP
+    HALT
